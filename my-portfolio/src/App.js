@@ -1,4 +1,4 @@
-import React from "react";
+import React, { components } from "react";
 import About from "./components/about";
 import Contact from "./components/contact";
 import Navbar from "./components/navbar";
@@ -11,12 +11,12 @@ import "./App.css";
 export const App = () => {
   return (
     <div className="layout">
-      <Navbar></Navbar>
-      <About></About>
-      <Projects></Projects>
-      <Resume></Resume>
-      <Skills></Skills>
-      <Contact></Contact>
+      <Navbar />
+      <About />
+      <Projects />
+      <Resume />
+      <Skills />
+      <Contact />
     </div>
   );
 };
