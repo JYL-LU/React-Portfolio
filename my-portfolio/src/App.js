@@ -13,9 +13,9 @@ export const App = () => {
     <div className="layout">
       <Navbar />
       <About />
-      <Projects />
+      {/* <Projects />
       <Resume />
-      <Skills />
+      <Skills /> */}
       <Contact />
     </div>
   );

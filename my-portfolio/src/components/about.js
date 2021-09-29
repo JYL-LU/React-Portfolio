@@ -4,7 +4,7 @@ export const About = () => {
   return (
     <div className="about" id="about">
       <h2 className="title">Jane Lu</h2>
-      <h1 className="introduction">
+      <h4 className="introduction">
         <p>
           After 10+ years of successful career in the architecture industry I
           decided to make a switch to software engineering. I graduated from UC
@@ -23,7 +23,7 @@ export const About = () => {
           Asian markets, highly dynamic work environments, collaboration and
           team work.
         </p>
-      </h1>
+      </h4>
     </div>
   );
 };
